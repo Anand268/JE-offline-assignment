@@ -1,0 +1,17 @@
+{
+  "max_file_mb": 25,
+  "max_pages": 20,
+  "dpi": 240,
+  "max_page_pixels": 25000000,
+  "ocr_rotations": [0, 90, 180, 270],
+  "tile_size": 1400,
+  "tile_overlap": 160,
+  "max_ocr_tiles_per_page": 100,
+  "low_confidence_threshold": 0.9,
+  "ocr_regions": {},
+  "vision_enabled": false,
+  "vision_provider": null,
+  "vision_model": null,
+  "max_vision_regions": 5,
+  "max_vision_output_tokens": 600
+}

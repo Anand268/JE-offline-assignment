@@ -1,0 +1,21 @@
+# PDF inspection, native text/table extraction, and page rendering
+PyMuPDF>=1.24,<2
+pdfplumber>=0.11,<1
+
+# Image preprocessing and OCR (pytesseract requires the Tesseract executable)
+opencv-python>=4.10,<5
+Pillow>=10.4,<13
+numpy>=1.26,<3
+pytesseract>=0.3.13,<1
+# Bundled local OCR models; works without a system Tesseract installation
+rapidocr-onnxruntime>=1.4,<2
+
+# Structured validation, reconciliation, and tabular output
+pydantic>=2.9,<3
+jsonschema>=4.23,<5
+rapidfuzz>=3.9,<4
+pandas>=2.2,<4
+
+# Vision-model escalation and local API-key configuration
+openai>=1.50,<3
+python-dotenv>=1.0,<2

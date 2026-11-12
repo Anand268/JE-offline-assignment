@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+# Generated extraction runs, evidence previews, and exports
+output-folder/*
+!output-folder/.gitkeep
+# Source documents stay local
+input-folder/*.pdf
